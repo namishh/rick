@@ -1,7 +1,7 @@
-let h1 = document.querySelector('.h1')
-let vid = document.querySelector('#vid')
+const h1 = document.querySelector('.h1')
+const vid = document.querySelector('#vid')
 
-let audio = document.createElement("AUDIO")
+const audio = document.createElement("AUDIO")
 document.body.appendChild(audio);
 audio.src = "./com.mp4"
 
